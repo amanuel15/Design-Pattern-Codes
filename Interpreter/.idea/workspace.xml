@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4953673b-cd9e-4a47-b8c9-135f708d2119" name="Default Changelist" comment="" />
+    <list default="true" id="fbebdbdd-22bb-400e-8701-ff314feaeb81" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectId" id="1UDm0vfrEB4S1WWcCRxb99dyQGy" />
+  <component name="ProjectId" id="1UVSOtBc4shAKKBjvOXycjApL6K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -29,38 +40,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="IteratorDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.IteratorDesignPattern" />
-      <module name="Iterator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.IteratorDesignPattern" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4953673b-cd9e-4a47-b8c9-135f708d2119" name="Default Changelist" comment="" />
-      <created>1574899320470</created>
+      <changelist id="fbebdbdd-22bb-400e-8701-ff314feaeb81" name="Default Changelist" comment="" />
+      <created>1575440240750</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574899320470</updated>
-      <workItem from="1574899323767" duration="1453000" />
-      <workItem from="1575166201392" duration="151000" />
+      <updated>1575440240750</updated>
+      <workItem from="1575440243746" duration="1168000" />
     </task>
     <servers />
   </component>
@@ -72,9 +62,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
