@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="220.49999999999997" y="143.0">com.behavioral.command.commands.BuyCryptoCurrency</node>
+    <node x="660.5" y="143.5">com.behavioral.command.recievers.Ether</node>
+    <node x="815.5" y="143.5">com.behavioral.command.recievers.BitCoin</node>
+    <node x="38.09375" y="11.0">com.behavioral.command.commands.Transaction</node>
+    <node x="351.06065476190474" y="287.0">com.behavioral.command.Main</node>
+    <node x="440.5" y="143.0">com.behavioral.command.commands.SellCryptoCurrency</node>
+    <node x="10.5" y="143.0">com.behavioral.command.Wallet</node>
+    <node x="537.0556547619047" y="0.0">com.behavioral.command.recievers.CryptoCurrency</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.behavioral.command.commands.BuyCryptoCurrency" target="com.behavioral.command.commands.Transaction">
+      <point x="-66.66666666666669" y="-37.0" />
+      <point x="253.8333333333333" y="113.0" />
+      <point x="147.29375" y="113.0" />
+      <point x="31.19999999999999" y="25.5" />
+    </edge>
+    <edge source="com.behavioral.command.recievers.Ether" target="com.behavioral.command.recievers.CryptoCurrency">
+      <point x="0.0" y="-36.5" />
+      <point x="727.5" y="123.0" />
+      <point x="623.1985119047619" y="123.0" />
+      <point x="19.14285714285711" y="36.5" />
+    </edge>
+    <edge source="com.behavioral.command.commands.SellCryptoCurrency" target="com.behavioral.command.commands.Transaction">
+      <point x="-66.66666666666669" y="-37.0" />
+      <point x="473.83333333333326" y="93.0" />
+      <point x="178.49374999999998" y="93.0" />
+      <point x="62.400000000000006" y="25.5" />
+    </edge>
+    <edge source="com.behavioral.command.Main" target="com.behavioral.command.commands.BuyCryptoCurrency">
+      <point x="-10.3125" y="-25.5" />
+      <point x="423.24815476190474" y="237.0" />
+      <point x="320.5" y="237.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.behavioral.command.Wallet" target="com.behavioral.command.commands.Transaction">
+      <point x="47.5" y="-37.0" />
+      <point x="153.0" y="123.0" />
+      <point x="116.09375" y="123.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.behavioral.command.recievers.BitCoin" target="com.behavioral.command.recievers.CryptoCurrency">
+      <point x="0.0" y="-36.5" />
+      <point x="882.5" y="103.0" />
+      <point x="661.4842261904762" y="103.0" />
+      <point x="57.428571428571445" y="36.5" />
+    </edge>
+    <edge source="com.behavioral.command.Main" target="com.behavioral.command.recievers.CryptoCurrency">
+      <point x="51.5625" y="-25.5" />
+      <point x="485.12315476190474" y="257.0" />
+      <point x="805.0" y="257.0" />
+      <point x="805.0" y="113.0" />
+      <point x="642.3413690476191" y="113.0" />
+      <point x="38.285714285714334" y="36.5" />
+    </edge>
+    <edge source="com.behavioral.command.commands.BuyCryptoCurrency" target="com.behavioral.command.recievers.CryptoCurrency">
+      <point x="0.0" y="-37.0" />
+      <point x="320.5" y="103.0" />
+      <point x="546.6270833333333" y="103.0" />
+      <point x="-57.428571428571445" y="36.5" />
+    </edge>
+    <edge source="com.behavioral.command.Main" target="com.behavioral.command.commands.SellCryptoCurrency">
+      <point x="10.3125" y="-25.5" />
+      <point x="443.87315476190474" y="237.0" />
+      <point x="540.5" y="237.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.behavioral.command.Main" target="com.behavioral.command.Wallet">
+      <point x="-30.9375" y="-25.5" />
+      <point x="402.62315476190474" y="247.0" />
+      <point x="153.0" y="247.0" />
+      <point x="47.5" y="37.0" />
+    </edge>
+    <edge source="com.behavioral.command.Main" target="com.behavioral.command.commands.Transaction">
+      <point x="-72.1875" y="-25.5" />
+      <point x="361.37315476190474" y="267.0" />
+      <point x="0.0" y="267.0" />
+      <point x="0.0" y="113.0" />
+      <point x="53.69375000000002" y="113.0" />
+      <point x="-62.39999999999998" y="25.5" />
+    </edge>
+    <edge source="com.behavioral.command.Main" target="com.behavioral.command.recievers.Ether">
+      <point x="30.9375" y="-25.5" />
+      <point x="464.49815476190474" y="247.0" />
+      <point x="727.5" y="247.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.behavioral.command.Main" target="com.behavioral.command.recievers.BitCoin">
+      <point x="72.1875" y="-25.5" />
+      <point x="505.74815476190474" y="267.0" />
+      <point x="882.5" y="267.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.behavioral.command.commands.SellCryptoCurrency" target="com.behavioral.command.recievers.CryptoCurrency">
+      <point x="66.66666666666663" y="-37.0" />
+      <point x="607.1666666666666" y="123.0" />
+      <point x="604.0556547619047" y="123.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9999999999999996" x="427.5470085470086" y="146.64102564102566" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
